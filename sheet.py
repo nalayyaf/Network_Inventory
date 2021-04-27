@@ -16,7 +16,7 @@ def dev_info(task):
 
     r = task.run(netmiko_send_command, command_string="show run | sec snmp")
     result = r.result
-    match = re.search(r"snmp-server group SEC3GROUP v(\d+)\s", r.result)
+    match = re.search(r"snmp-server group *** v(\d+)\s", r.result)
     snmp_version = ""
     if match:
         snmp_version = match.groups(1)[0]
