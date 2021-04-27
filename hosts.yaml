@@ -1,16 +1,16 @@
 ---
 R1:
-    hostname:
+    hostname: 192.168.1.2
     platform: 'ios'
-    username:
-    password:
+    username: admin
+    password: admin
     groups:
         - cisco_group
 
 R2:
-    hostname:
+    hostname: 192.168.2.2
     platform: 'ios'
-    username:
-    password:
+    username: admin
+    password: admin
     groups:
         - cisco_group
