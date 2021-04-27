@@ -31,7 +31,7 @@ def dev_info(task):
     operating = task.host['facts']['version']['os']
     ver = task.host['facts']['version']['version']
 
-    with open('NETWORK_INVENTORY.csv', 'a') as csvfile:
+    with open('sheet.csv', 'a') as csvfile:
         writer = csv.writer(csvfile)
         csvdata = (task.host.hostname, hoster, serial,
                    image, im_type, operating, ver, snmp_version, ssh_version)
