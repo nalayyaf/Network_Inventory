@@ -1,0 +1,13 @@
+---
+
+inventory:
+    plugin: impleInventory
+    options:
+        host_file: "/home/osboxes/PycharmProjects/inventory/hosts.yaml"
+        group_file: "/home/osboxes/PycharmProjects/inventory/groups.yaml"
+        defaults_file: "/home/osboxes/PycharmProjects/inventory/defaults.yaml"
+runners:
+    plugin: threaded
+    option:
+          num_workers: 10
+
