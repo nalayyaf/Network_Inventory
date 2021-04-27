@@ -1,0 +1,16 @@
+---
+R1:
+    hostname:
+    platform: 'ios'
+    username:
+    password:
+    groups:
+        - cisco_group
+
+R2:
+    hostname:
+    platform: 'ios'
+    username:
+    password:
+    groups:
+        - cisco_group
